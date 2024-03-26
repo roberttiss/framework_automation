@@ -54,7 +54,7 @@ public class DriverFactory {
                 this.setDriver(new EdgeDriver());
                 break;
             default:
-                throw new IllegalArgumentException("Invalid browser type: " + browserType);
+                throw new IllegalArgumentException("Browser não suportado: " + browserType);
         }
     }
 
